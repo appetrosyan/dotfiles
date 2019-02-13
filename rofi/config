@@ -1,0 +1,5 @@
+rofi.theme: sidebar
+configuration{
+	show-icons: true;
+	drun-icon-theme: "oxygen";
+}

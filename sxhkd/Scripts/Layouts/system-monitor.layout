@@ -1,0 +1,3 @@
+$TERMINAL_EMULATOR -e "alsamixer" &
+$TERMINAL_EMULATOR -e "htop" &
+# qjackctl &

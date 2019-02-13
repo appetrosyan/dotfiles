@@ -1,0 +1,2 @@
+$EDITOR ~/Documents/Langevin/langevin.tex &
+$PDF_VIEWER ~/Documents/Langevin/langevin.pdf &

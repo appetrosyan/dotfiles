@@ -1,0 +1,4 @@
+$EDITOR ~/.config/sxhkd/sxhkdrc &
+$FILE_MANAGER ~/.config/sxhkd/Scripts &
+$TERMINAL_EMULATOR -e "alsamixer" &
+$TERMINAL_EMULATOR -e  "htop" &

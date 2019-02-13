@@ -1,0 +1,3 @@
+cadence &
+catia &
+$TERMINAL_EMULATOR -e "alsamixer" &

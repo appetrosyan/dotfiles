@@ -1,2 +1,2 @@
-$EDITOR ~/Documents/Langevin/langevin.tex &
-$PDF_VIEWER ~/Documents/Langevin/langevin.pdf &
+bspc rule -a \* desktop='Work' -o  && $EDITOR ~/Documents/Langevin/langevin.tex &
+bspc rule -a \* desktop='Work' -o  && $PDF_VIEWER ~/Documents/Langevin/langevin.pdf &

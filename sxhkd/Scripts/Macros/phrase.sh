@@ -7,6 +7,7 @@ phrase_dictionary(){
     PHRASES[Начнём урок]="Начнём сегодняшний урок как только пройдёте по ссылке."
     PHRASES[Всё готово]="Всё готово, начнём как будете готовы."
     PHRASES[Жду]="Всё готово, жду когда вы присоединитесь чтобы начать..."
+    PHRASES[Большое разнообразие]="Большое разнообразие грамматических форм,  очень интересная тема. Была пара мелких ошибок, (см. ниже):"
     for K in "${!PHRASES[@]}";do
 	phrases="$K\n$phrases"
     done
@@ -18,3 +19,4 @@ phrase_dictionary(){
 echo "$(phrase_dictionary)" | xclip -sel clipboard
 xdotool key ctrl+v
 setxkbmap us
+

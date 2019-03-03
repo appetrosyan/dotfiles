@@ -1,2 +1,2 @@
-skypeforlinux &
-$FILE_MANAGER Downloads/Cambridge\ Practice\ Tests\ for\ IELTS/ &
+bspc rule -a \* desktop='Comm' -o  && skypeforlinux &
+bspc rule -a \* desktop='Comm' -o  && $FILE_MANAGER Downloads/Cambridge\ Practice\ Tests\ for\ IELTS/ &

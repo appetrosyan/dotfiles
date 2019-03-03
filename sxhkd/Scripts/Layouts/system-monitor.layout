@@ -1,3 +1,2 @@
-$TERMINAL_EMULATOR -e "alsamixer" &
-$TERMINAL_EMULATOR -e "htop" &
-# qjackctl &
+bspc rule -a \* desktop='System' -o  && $TERMINAL_EMULATOR -e "alsamixer" &
+bspc rule -a \* desktop='System' -o  && $TERMINAL_EMULATOR -e "htop" &

@@ -1,3 +1,4 @@
-cadence &
-catia &
-$TERMINAL_EMULATOR -e "alsamixer" &
+jack_control start &
+bspc rule -a \* desktop='System' -o  && cadence &
+bspc rule -a \* desktop='System' -o  && catia &
+bspc rule -a \* desktop='System' -o  && pavucontrol &

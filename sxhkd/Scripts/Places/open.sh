@@ -1,2 +1,3 @@
-#!/bin/bash 
-fname=$(rofi -dmenu -matching fuzzy -i -p "Choose a place" -input ~/.config/sxhkd/Scripts/Places/places) && fname="${fname/#~/$HOME}" && xdg-open "$fname"
+#!/bin/bash
+setxkbmap us
+fname=$(cat ~/.config/gtk-3.0/bookmarks ~/.config/sxhkd/Scripts/Places/places | rofi -dmenu -matching fuzzy -i -p "Choose a place" -font "Fira Code 12") && xdg-open $fname 
